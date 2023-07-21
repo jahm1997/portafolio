@@ -127,7 +127,7 @@ export default function Home() {
                 <Skeleton
                   animation="wave"
                   height={10}
-                  style={{ marginBottom: 5 }}
+                  style={{ marginBottom: 4 }}
                 />
                 <Grid
                   container
