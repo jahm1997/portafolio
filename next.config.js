@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
-
-module.exports = nextConfig
+  productionBrowserSourceMaps: true,
+  images: {
+    domains: [
+      "https://drive.google.com",
+      "images.unsplash.com",
+      "drive.google.com",
+    ],
+  },
+};
+module.exports = nextConfig;
